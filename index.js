@@ -58,6 +58,7 @@ app.get('/', (req, res) => {
             <br/>
             <button onclick="window.location='/login'">Login</button>
         `;
+        console.log("not a member");
         res.send(html);
     }
 });
